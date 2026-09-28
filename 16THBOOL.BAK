@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdbool.h>
+
+int main()
+{
+ bool tested = true;
+ bool nottested = false;
+clrscr();
+printf("%d\n",tested);
+printf("%d",nottested);
+getch();
+
+}

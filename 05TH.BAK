@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+int a,b,c,d,e,f;
+clrscr();
+
+printf("ENTER maths Marks\n");
+scanf("%d",&a);
+
+printf("ENTER hindi Marks\n");
+scanf("%d",&b);
+
+printf("ENTER MARATHI Marks\n");
+scanf("%d",&c);
+
+printf("ENTER  MATH 2	 Marks\n");
+scanf("%d",&d);
+
+e=a+b+c+d;
+
+
+printf("%d",e) ;
+
+f=e/4;
+printf("%d",f);
+getch();
+
+}
