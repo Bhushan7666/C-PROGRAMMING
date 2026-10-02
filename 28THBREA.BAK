@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{  int i=1;
+clrscr();
+printf("hi\n");
+for (i=1;i<=10;i++){
+
+    if(i==3){
+    continue;
+    if(i==5)
+    {
+    break;
+    }
+}
+printf("%d\n",i);
+}
+getch();
+
+}

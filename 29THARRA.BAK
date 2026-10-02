@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+
+main{
+
+ int a [] = {26,65,89,78};
+
+clrscr();
+
+ printf("%d", int a[1]);
+
+getch();
+}
